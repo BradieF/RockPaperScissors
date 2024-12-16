@@ -1,0 +1,84 @@
+.buttons {
+    width: 120px;
+    height: 70px;
+    margin: 10px 20px;
+    background-color: rgb(238, 214, 242);
+    border-color: plum;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.buttons:hover{
+    background-color: rgb(202, 170, 211);
+    cursor: pointer;
+}
+
+.header{
+    text-align: center;
+}
+
+p{
+    margin: 6px;
+}
+
+#button-container{
+    text-align: center
+;}
+
+body {
+    background-color: rgb(233, 236, 245);
+}
+
+.scores {
+    border: 2px solid black;
+    padding: 5px;
+    width: 160px;
+    text-align: center;
+    background-color: rgb(233, 231, 248);
+}
+
+.scoreDiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.resultDiv {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: auto;
+    border: 10px solid black;
+    overflow-y: auto; 
+}
+
+.whoWon{
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+.tie{
+    color: grey;
+}
+
+.humanWon {
+    color: green;
+}
+
+.computerWon{
+    color: red;
+}
+
+.round{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 90px;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+;}
+
+
